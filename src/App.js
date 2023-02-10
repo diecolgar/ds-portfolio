@@ -8,14 +8,22 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <ul>
-          <li className="nav-home">
-            <Link to="/">Home</Link>
+        <div className="nav-logo">
+            <div className="logo">
+
+            </div>
+        </div>
+        <ul className="nav-links">
+          <li className="nav-AI">
+            <Link to="/">AI</Link>
           </li>
-          <li className="nav-about">
-            <Link to="/about">About</Link>
+          <li className="nav-3D">
+            <Link to="/about">3D</Link>
           </li>
         </ul>
+        <div className="nav-dummy">
+
+        </div>
       </nav>
 
       <Routes>
