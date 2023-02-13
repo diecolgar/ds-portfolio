@@ -13,7 +13,15 @@ export default function Home() {
                     Design Studios Digital Portfolio
                 </div>
                 <div className='hero-subtitle'>
-                    Bringing Your Creative Dreams to Reality with Our Unmatched Expertise in Design
+                    bringing your creative dreams to reality.
+                </div>
+                <div className='hero-contact'>
+                    CONTACT US
+                </div>
+            </div>
+            <div className='hero-scrolldown'>
+                <div className='scrolldown-animation'>
+
                 </div>
             </div>
         </div>

@@ -16,13 +16,40 @@ nav {
     display: flex;
     list-style-type: none;
     justify-content: center;
+    align-items: center;
 }
 
 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: white;
-    margin: 0 24px;
-    font-weight: 500;
+    margin: 0 8px;
+    font-weight: 600;
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* transition: 0.2s; */
+    border: 1px solid rgba(255, 255, 255, 0);
+    transition: 0.25s;
+    letter-spacing: 1px;
+
+}
+
+.separator {
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 8px;
+
+}
+
+a:hover {
+    border: 1px solid white;
+    /* color: rgb(25,25,25); */
 }
 
 .nav-logo {
