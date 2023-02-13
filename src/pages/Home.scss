@@ -32,9 +32,10 @@
             }
         }
         .hero-title {
+            text-align: center;
             font-weight: 600;
             font-size: 54px;
-            margin-bottom: 16px;
+            margin-bottom: 4px;
         }
         .hero-subtitle {
             font-weight: 400;
@@ -60,7 +61,7 @@
                 cursor: pointer;
                 background-color: #f5f5f5;
                 border: 2px solid #f5f5f500;
-                color: rgb(243, 140, 226);
+                color: #d8ac84;
             }
         }
     }
