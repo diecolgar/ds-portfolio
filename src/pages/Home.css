@@ -35,15 +35,16 @@
 .home-hero .hero-content .hero-title {
   text-align: center;
   font-weight: 600;
-  font-size: 54px;
+  font-size: 3rem;
   margin-bottom: 4px;
 }
 .home-hero .hero-content .hero-subtitle {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 32px;
   color: white;
   width: 35%;
+  min-width: 700px;
   text-align: center;
   margin-bottom: 32px;
   letter-spacing: 1px;
