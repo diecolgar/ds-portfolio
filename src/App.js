@@ -1,6 +1,7 @@
 import { Link, Route, Routes } from "react-router-dom"
 import Home from './pages/Home';
 import About from './pages/About';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import './App.css';
 
 
@@ -17,13 +18,13 @@ function App() {
           </div>
           <ul className="nav-links">
             <li className="nav-AI">
-              <Link to="/">AI</Link>
+              <a href="#home-ai">AI</a>
             </li>
             <li className="separator">
 
             </li>
             <li className="nav-3D">
-              <Link to="/about">3D</Link>
+              <a href="#home-3d">3D</a>
             </li>
           </ul>
           <div className="nav-dummy">
@@ -36,6 +37,7 @@ function App() {
         <Route path="/" element={ <Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+
     </div>
   );
 }

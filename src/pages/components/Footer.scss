@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    width: 100vw;
+    background-color: black;
+    .footer-icons {
+        display: flex;
+        .ds-icon {
+            width: 180px;
+            height: 100px;
+            background-image: url(/public/img/DS_Logo_Dark.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+    // .footer-dsemail {
+    //     transform: translateY(-14px);
+    // }
+    .footer-date {
+        color: rgb(190, 190, 190);
+        font-size: 0.6rem;
+        transform: translateY(-8px);
+    }
+}
