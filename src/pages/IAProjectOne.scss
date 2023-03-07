@@ -1,0 +1,203 @@
+.project-landing {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 105vh;
+    background-image: url(/public/img/project_background_inspirational.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10;
+    .dummy-rectangle {
+        position: absolute;
+        bottom: 0;
+        height: 20vh;
+        width: 100vw;
+        background-color: #282828;
+    }
+    .landing-description {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        bottom: 15vh;
+        width: 100vw;
+        max-width: 800px;
+        background-color: #393939;
+        padding: 12px 48px 48px 48px;
+        opacity: 0.8;
+    }
+    .landing-title {
+        position: absolute;
+        // font-size: 7vw;
+        font-size: 4rem;
+        font-weight: 600;
+        // opacity: 0.6;
+        bottom: 13.5vh;
+        letter-spacing: 4px;
+    }
+}
+.project-overview {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+    background-image: url(/public/img/home_background_white.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .overview-container {
+        position: relative;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        max-width: 1400px;
+        height: 100%;
+        .title {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 4rem;
+            letter-spacing: 2px;
+            font-weight: 600;
+            transform: rotate(-90deg) translateX(-120%) translateY(100%);
+            transform-origin: left;
+            text-align: right;
+        }
+        .description {
+            position: absolute;
+            bottom: 100px;
+            right: 0;
+            display: flex;
+            align-items: end;
+            position: absolute;
+            width: 400px;
+            height: 450px;
+            background-color: white;
+            color: #282828;
+            padding: 24px 48px;
+        }
+        .supportimage {
+            position: absolute;
+            position: absolute;
+            bottom: 400px;
+            right: 250px;
+            width: 400px;
+            height: 350px;
+            background-image: url(/public/img/project_background_inspirational.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #282828;
+            padding: 24px 48px;   
+        }
+        .dummy-overview-rectangle {
+            position: absolute;
+            bottom: 0;
+            height: 15vh;
+            width: 100vw;
+            background-image: url(/public/img/DS_texture.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}
+.project-challenges {
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    width: 100vw;
+    background-image: url(/public/img/DS_texture_white_1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .challenges-container {
+        position: relative;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        max-width: 1400px;
+        height: 100%;
+        .title {
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 4rem;
+            letter-spacing: 2px;
+            font-weight: 600;
+            transform: rotate(-90deg) translateX(-20%) translateY(-100%);
+            transform-origin: right;
+            text-align: right;
+        }
+        .challenge {
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            align-items: center;
+            position: absolute;
+            bottom: 100px;
+            left: 0;
+            position: absolute;
+            width: 350px;
+            height: 600px;
+            background-color: white;
+            color: #282828;
+            padding: 24px 48px;
+            &.second {
+                left: 450px;
+            }
+            &.third {
+                left: 900px;
+            }
+            .challenge-icon {
+                // position: absolute;
+                // top: 0;
+                // left: 50%;
+                // transform: translateX(-50%) translateY(150%);
+                width: 60px;
+                height: 60px;
+                background-image: url(/public/icons/ds_icon_check_purple.svg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                &.second {
+                    background-image: url(/public/icons/ds_icon_comm_purple.svg);
+                }
+                &.third {
+                    background-image: url(/public/icons/ds_icon_heart_purple.svg);
+                }
+            }
+        }
+        .supportimage {
+            position: absolute;
+            position: absolute;
+            bottom: 400px;
+            right: 250px;
+            width: 400px;
+            height: 350px;
+            background-image: url(/public/img/project_background_inspirational.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #282828;
+            padding: 24px 48px;   
+        }
+        .dummy-challenges-rectangle {
+            position: absolute;
+            bottom: 0;
+            height: 15vh;
+            width: 100vw;
+            background-image: url(/public/img/DS_texture.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+}

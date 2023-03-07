@@ -78,10 +78,31 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  overflow-x: hidden;
+  background-color: #000000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Removing default a decoration */
+a {
+    /* remove default text decoration */
+    text-decoration: none !important;
+  
+    /* remove default border and outline */
+    border: none;
+    outline: none;
+    
+    /* remove default hover styles */
+    /* set the hover styles to whatever you want */
+    /* or remove the entire block if you don't need hover styles */
+}
+
+a:hover {
+  text-decoration: none;
+  border: none;
+  outline: none;
 }

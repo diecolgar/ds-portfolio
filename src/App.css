@@ -41,17 +41,28 @@ nav {
 .nav-logo {
     display: flex;
     align-items: center;
+    justify-content: left;
     width: 33%;
     height: 100%;
     min-height: 70px;
     /* padding-left: 48px; */
+    border-radius: 0;
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+}
+
+.nav-logo:hover {
+  text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 .logo {
     width: 200px;
     height: 80%;
     /* 1612 × 877 */
-    background-image: url(/public/img/DS_Logo_Dark_Reduced_2.png);
+    background-image: url(/public/img/DS_Logo_Dark_Reduced.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

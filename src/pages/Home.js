@@ -3,7 +3,6 @@ import './Home.css';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import Footer from './components/Footer';
 
-
 export default function Home() {
 
     const scrollRef = React.useRef(null);
@@ -52,16 +51,16 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='project first-ia-project'>
-                    <div className='project-clickable'>
-                        <div className='project-icon'>O</div>
+                    <a className='project-clickable' href='/IAProjectOne'>
+                        {/* <div className='project-icon'></div> */}
                         <div className='project-title'>First IA Project</div>
                         <div className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                         <div className='project-viewmore'>VIEW CASE STUDY</div>
-                    </div>
+                    </a>
                 </div>
                 <div className='project second-ia-project'>
                     <div className='project-clickable second'>
-                        <div className='project-icon'>O</div>
+                        {/* <div className='project-icon'></div> */}
                         <div className='project-title'>Second IA Project</div>
                         <div className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                         <div className='project-viewmore'>VIEW CASE STUDY</div>
@@ -81,7 +80,7 @@ export default function Home() {
                 </div>
                     <div className='project first-3d-project'>
                         <div className='project-clickable'>
-                            <div className='project-icon'>O</div>
+                            {/* <div className='project-icon'></div> */}
                             <div className='project-title'>First 3D Project</div>
                             <div className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                             <div className='project-viewmore'>VIEW CASE STUDY</div>
@@ -89,7 +88,7 @@ export default function Home() {
                     </div>
                     <div className='project second-3d-project'>
                         <div className='project-clickable second'>
-                            <div className='project-icon'>O</div>
+                            {/* <div className='project-icon'></div> */}
                             <div className='project-title'>Second 3D Project</div>
                             <div className='project-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                             <div className='project-viewmore'>VIEW CASE STUDY</div>

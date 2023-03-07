@@ -1,0 +1,199 @@
+.project-landing {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 105vh;
+  background-image: url(/public/img/project_background_inspirational.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+.project-landing .dummy-rectangle {
+  position: absolute;
+  bottom: 0;
+  height: 20vh;
+  width: 100vw;
+  background-color: #282828;
+}
+.project-landing .landing-description {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  bottom: 15vh;
+  width: 100vw;
+  max-width: 800px;
+  background-color: #393939;
+  padding: 12px 48px 48px 48px;
+  opacity: 0.8;
+}
+.project-landing .landing-title {
+  position: absolute;
+  font-size: 4rem;
+  font-weight: 600;
+  bottom: 13.5vh;
+  letter-spacing: 4px;
+}
+
+.project-overview {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  width: 100vw;
+  background-image: url(/public/img/home_background_white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project-overview .overview-container {
+  position: relative;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 1400px;
+  height: 100%;
+}
+.project-overview .overview-container .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  transform: rotate(-90deg) translateX(-120%) translateY(100%);
+  transform-origin: left;
+  text-align: right;
+}
+.project-overview .overview-container .description {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  display: flex;
+  align-items: end;
+  position: absolute;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  color: #282828;
+  padding: 24px 48px;
+}
+.project-overview .overview-container .supportimage {
+  position: absolute;
+  position: absolute;
+  bottom: 400px;
+  right: 250px;
+  width: 400px;
+  height: 350px;
+  background-image: url(/public/img/project_background_inspirational.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #282828;
+  padding: 24px 48px;
+}
+.project-overview .overview-container .dummy-overview-rectangle {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  width: 100vw;
+  background-image: url(/public/img/DS_texture.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-challenges {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  width: 100vw;
+  background-image: url(/public/img/DS_texture_white_1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project-challenges .challenges-container {
+  position: relative;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 1400px;
+  height: 100%;
+}
+.project-challenges .challenges-container .title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  transform: rotate(-90deg) translateX(-20%) translateY(-100%);
+  transform-origin: right;
+  text-align: right;
+}
+.project-challenges .challenges-container .challenge {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  position: absolute;
+  width: 350px;
+  height: 600px;
+  background-color: white;
+  color: #282828;
+  padding: 24px 48px;
+}
+.project-challenges .challenges-container .challenge.second {
+  left: 450px;
+}
+.project-challenges .challenges-container .challenge.third {
+  left: 900px;
+}
+.project-challenges .challenges-container .challenge .challenge-icon {
+  width: 60px;
+  height: 60px;
+  background-image: url(/public/icons/ds_icon_check_purple.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.project-challenges .challenges-container .challenge .challenge-icon.second {
+  background-image: url(/public/icons/ds_icon_comm_purple.svg);
+}
+.project-challenges .challenges-container .challenge .challenge-icon.third {
+  background-image: url(/public/icons/ds_icon_heart_purple.svg);
+}
+.project-challenges .challenges-container .supportimage {
+  position: absolute;
+  position: absolute;
+  bottom: 400px;
+  right: 250px;
+  width: 400px;
+  height: 350px;
+  background-image: url(/public/img/project_background_inspirational.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #282828;
+  padding: 24px 48px;
+}
+.project-challenges .challenges-container .dummy-challenges-rectangle {
+  position: absolute;
+  bottom: 0;
+  height: 15vh;
+  width: 100vw;
+  background-image: url(/public/img/DS_texture.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=IAProjectOne.css.map */
